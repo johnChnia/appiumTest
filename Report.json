@@ -1,0 +1,16 @@
+[
+  {
+    "deviceUDID": "HQ65ZBV45604",
+    "testCases": [
+      {
+        "testCase": "com.appium.webtest.InformationTest",
+        "testMethod": [
+          {
+            "methodName": "loginWithValidUser",
+            "screnShots": []
+          }
+        ]
+      }
+    ]
+  }
+]
