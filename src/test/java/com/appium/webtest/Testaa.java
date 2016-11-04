@@ -18,8 +18,8 @@ import com.appium.utils.IdCardGenerator;
 public class Testaa {
 	@Test
 	public void testa() throws MalformedURLException {
-//		LoanConfirmPage.approval("18610247777");
-		ReimbursementPage.prepareForPayInAdvance("18610241122");
+		LoanConfirmPage.approval("18610243344");
+//		ReimbursementPage.prepareForPayInAdvance("18610241122");
 //		System.out.println(new IdCardGenerator().generate());
 //		TiXianPage.createLimitUsers("18610246663");
 
