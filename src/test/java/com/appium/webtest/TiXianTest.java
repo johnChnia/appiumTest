@@ -15,7 +15,7 @@ public class TiXianTest extends UserBaseTest{
 	
 	@Test
 	public void TiXianTest() throws InterruptedException {
-		user = new User("18610246663", "888888");
+		user = new User("18610246662", "888888");
 		welcomePage = new WelcomePage(driver);
 		
 //		TiXianPage.createLimitUsers(user.getUserName());

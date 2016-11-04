@@ -15,7 +15,7 @@ public class SecurityTest extends UserBaseTest {
 	@Author(name = "john")
 	public void loginWithValidUser() throws InterruptedException {
 		welcomePage = new WelcomePage(driver);
-		user = new User("15000109999", "888888");
+		user = new User("18610246662", "888888");
 		 welcomePage.waitForWelcomePage().swipeLeftToLoginPage(5)
 		 .setEnvironment().waitForWelcomePage().swipeLeftToLoginPage(5)
 		 .loginAs(user.getUserName(), user.getPassWord())

@@ -24,7 +24,7 @@ public class FlowOtherTest extends UserBaseTest {
 	@Author(name = "john")
 	public void flowOtherTest() throws InterruptedException {
 		welcomePage = new WelcomePage(driver);
-		user = new User("13310240009", "888888");
+		user = new User("18610246662", "888888");
 		String code = RedeemPage.produceCode();
 		
 		welcomePage.waitForWelcomePage().swipeLeftToLoginPage(5)

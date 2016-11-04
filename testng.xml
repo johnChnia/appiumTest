@@ -7,8 +7,8 @@
     </listeners>
     <test name="TestNG Test">
         <classes>
-                    <!-- <class name="com.appium.webtest.FlowOtherTest"/> -->
-            <class name="com.appium.webtest.NewUserTest"/>
+                    <class name="com.appium.webtest.FlowOtherTest"/>
+            <!--  <class name="com.appium.webtest.NewUserTest"/> -->
         </classes>
     </test> <!-- TestNG Test -->
 </suite> <!-- TestNG Forum -->

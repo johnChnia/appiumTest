@@ -17,7 +17,7 @@ public class AccountPageObjects {
 	@AndroidFindBy(id = "co.welab.wolaidai:id/rl_bonus_share")
 	public MobileElement bonus_share;
 	
-	@AndroidFindBy(id = "co.welab.wolaidai:id/rl_pi_bancheline")
+	@AndroidFindBy(id = "co.welab.wolaidai:id/text_shenqingNum")
 	public MobileElement my_loan;
 	
 	@AndroidFindBy(id = "co.welab.wolaidai:id/rl_coupon")
