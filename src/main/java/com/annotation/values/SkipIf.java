@@ -6,11 +6,9 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * This annotation is processed by {@link } class.
- * <p>
- * Use this annotation if you want to skip a test based plaform.
+ * 
+ * @author john
  *
- * @author saikrisv
  */
 @Target(ElementType.METHOD) @Retention(RetentionPolicy.RUNTIME) public @interface SkipIf {
     String platform();

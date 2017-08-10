@@ -31,7 +31,6 @@ import java.util.Properties;
  * This class picks the devices connected
  * and distributes across multiple thread.
  *
- * Thanks to @Thote_Gowda(thotegowda.gr@gmail.com)
  */
 
 

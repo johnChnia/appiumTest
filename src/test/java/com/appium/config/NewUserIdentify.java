@@ -86,7 +86,7 @@ public class NewUserIdentify {
 	}
 
 	public static void main(String[] args) throws Exception {
-		String mobile = "15000806411";
+		String mobile = "18612347788";
 		NewUserIdentify n = new NewUserIdentify();
 		System.out.println(n.getUserToken(mobile));
 //		n.identifyPost(mobile, "bank_card_transaction_flow_proof");

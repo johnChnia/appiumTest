@@ -27,7 +27,9 @@ import java.util.List;
 import javax.imageio.ImageIO;
 
 /**
- * Created by saikrisv on 17/03/16.
+ * 
+ * @author john
+ *
  */
 public class ImageUtils {
 

@@ -8,7 +8,9 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 /**
- * Created by saikrisv on 10/06/16.
+ * 
+ * @author john
+ *
  */
 public class ImageDecoding {
     public static String encodeToString(BufferedImage image, String type) {

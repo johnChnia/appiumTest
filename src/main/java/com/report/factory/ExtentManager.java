@@ -1,6 +1,7 @@
 package com.report.factory;
 
 import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.NetworkMode;
 
 import java.io.FileInputStream;
 import java.util.Properties;
@@ -13,7 +14,7 @@ public class ExtentManager {
         if (instance == null) {
             System.out.println(System.getProperty("user.dir"));
             instance =
-                new ExtentReports(System.getProperty("user.dir") + "/target/ExtentReport.html");
+                new ExtentReports(System.getProperty("user.dir") + "/target/ExtentReport.html", NetworkMode.OFFLINE);
             try {
                 prop.load(new FileInputStream("config.properties"));
                 if (System.getenv("ExtentX").equalsIgnoreCase("true")) {
